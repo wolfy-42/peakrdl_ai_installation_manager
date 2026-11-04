@@ -4,9 +4,15 @@ Installs the `peakrdl` command line tool and its exporters into a virtual
 environment, `venv/`, in this folder. The `Makefile` runs `install_peakrdl.py`
 for you.
 
+This repo (`peakrdl_ai_installation_manager`) is checked out into the
+`dev/tools/peakrdl` folder of an FPGA project. All paths below use that folder.
+
 ## Quick start
 
+From the root of the FPGA project:
+
 ```sh
+git clone git@github.com:wolfy-42/peakrdl_ai_installation_manager.git dev/tools/peakrdl
 cd dev/tools/peakrdl
 make install_<mode>              # pick one install_* target, see below
 source venv/bin/activate         # puts peakrdl on PATH
