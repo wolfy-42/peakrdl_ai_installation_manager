@@ -1,3 +1,15 @@
+The code in this folder (install_peakrdl.py and the Makefile) is licensed under either of
+
+  - Apache License, Version 2.0 (see LICENSE-APACHE), or
+  - MIT license (below)
+
+at your option. SPDX-License-Identifier: Apache-2.0 OR MIT
+
+This does not cover the repos in the subfolders (systemrdl-compiler, PeakRDL-*,
+peakrdl-pdflight) or peakrdl_repos.zip: each repo keeps its own license.
+
+--------------------------------------------------------------------------------
+
 MIT License
 
 Copyright (c) 2026 wolfy-42

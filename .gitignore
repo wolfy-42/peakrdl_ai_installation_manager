@@ -1,0 +1,14 @@
+# virtual environment and uv (created by make venv / make install_*)
+venv/
+uv/
+__pycache__/
+
+# peakrdl repos (cloned or unpacked by make install_clone / make install_zip)
+systemrdl-compiler/
+PeakRDL/
+PeakRDL-*/
+peakrdl-pdflight/
+
+# temporary files written by make zip
+peakrdl_versions.txt
+LICENSE_WARNING.txt
